@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
         title: 'Startup Name Generator',
         theme: ThemeData(
             brightness: Brightness.light,
-            primaryColor: Colors.red,
+            primaryColor: Colors.blue,
         ),
         darkTheme: ThemeData(
             brightness: Brightness.dark,
@@ -67,9 +67,9 @@ class RandomWordsState extends State<RandomWords> {
           setState(() {
             if (alreadySaved) {
               _saved.remove(pair);
-            } else { 
-              _saved.add(pair); 
-            } 
+            } else {
+              _saved.add(pair);
+            }
           });
         },
     );
